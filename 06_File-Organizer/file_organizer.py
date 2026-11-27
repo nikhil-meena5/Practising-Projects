@@ -10,7 +10,7 @@ import shutil
 from pathlib import Path
 
 #main folder 
-folder = Path("Testfolder")
+folder = Path(__file__).resolve().parent / "Test-Input"
 
 #create subfolder 
 folders = {

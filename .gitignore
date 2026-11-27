@@ -1,0 +1,12 @@
+Archive/
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+
+# Private personal data
+expenses.local.csv
+tasks.local.json
+expenses.csv
+tasks.json

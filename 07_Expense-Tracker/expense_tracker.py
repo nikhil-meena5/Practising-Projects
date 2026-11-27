@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import os
 from datetime import datetime
 
-FILE_NAME = "expenses.csv"
+FILE_NAME = os.path.join(os.path.dirname(os.path.abspath(__file__)), "expenses.csv")
 
 CATEGORIES = [
     "Food", "Travel", "Bills",
